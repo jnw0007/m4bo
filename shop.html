@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotzy</title>
+</head>
+
+<body>
+    <header id="js--header">
+        <img class="img--logo" src="img/HotzyLogo.webp" alt="logo" id="js--logo">
+
+        <div class="off-screen-menu">
+            <ul>
+                <li class="nav--list--item"><a class="home--nav" href="index.html">HOME</a></li>
+                <li class="nav--list--item"><a class="shop--nav" href="shop.html">SHOP ALL</a></li>
+                <li class="nav--list--item"><a href=" ">Tops</a></li>
+                <li class="nav--list--item"><a href=" ">Bottoms</a></li>
+                <li class="nav--list--item"><a href=" ">Sets</a></li>
+            </ul>
+        </div>
+        <div class="icon--container">
+            <i class="icon fa-regular fa-user" style="color: #d498e3;"></i>
+            <i class="icon fa-solid fa-cart-shopping" style="color: #d498e3;"></i>
+            <nav>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <h1 class="all-products-text">All Products</h1>
+
+    <h2 class="filter-items">Filter items</h2>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search products..">
+
+    <ul id="myUL">
+        <div class="shopping--item--container">
+            <li>
+                <div class="shopping--card--container">
+                    <img class="item--card" src="img/clothingcatalog/Hotzy_Dog_Shirt_Front.webp" alt="">
+                    <h2 class="productname">Dog Tee</h2>
+                    <p>$0.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="shopping--card--container">
+                    <img class="item--card" src="img/clothingcatalog/Hotzy_Logo_Shirt_Front.webp" alt="">
+                    <h2 class="productname">Hotzy Logo Tee</h2>
+                    <p>$0.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="shopping--card--container">
+                    <img class="item--card" src="img/clothingcatalog/Hotzy_Cami_Purple_Front.webp" alt="">
+                    <h2 class="productname">Purple Cami</h2>
+                    <p>$0.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="shopping--card--container">
+                    <img class="item--card item--card__soldout"
+                        src="img/clothingcatalog/Hotzy_LaceUp_Cami_Blue_Front.webp" alt="lace up cami">
+                    <div class="container--soldout">
+                        <h2 class="productname">Lace up Cami</h2>
+                        <div class="item--soldout">SOLD OUT</div>
+                    </div>
+                    <p>$36.33</p>
+                    <div class="color--containers">
+                        <div class="color item--color--blue"></div>
+                        <div class="color item--color--pink"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="shopping--card--container">
+                    <img class="item--card" src="img/clothingcatalog/Hotzy_IceCream_Skirt_Front.webp" alt="">
+                    <h2 class="productname">Ice Cream Skirt</h2>
+                    <p>$0.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="shopping--card--container">
+                    <img class="item--card" src="img/clothingcatalog/Hotzy_Floral_Skirt_Front.webp" alt="">
+                    <h2 class="productname">Floral Skirt</h2>
+                    <p>$0.00</p>
+                </div>
+            </li>
+    </ul>
+</body>
+
+</html>
