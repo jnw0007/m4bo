@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -7,38 +8,67 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
+    <script src="js/homepage.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotzy</title>
 </head>
+
 <body>
-    <header>
+    <header id="js--header">
         <img class="img--logo" src="img/HotzyLogo.webp" alt="logo" id="js--logo">
 
         <div class="off-screen-menu">
             <ul>
-                <li class="nav--list--item"><a href="index.html">HOME</a></li>
-                <li class="nav--list--item"><a href="shop.html">SHOP ALL</a></li>
+                <li class="nav--list--item"><a class="home--nav" href="index.html">HOME</a></li>
+                <li class="nav--list--item"><a class="shop--nav" href="shop.html">SHOP ALL</a></li>
                 <li class="nav--list--item"><a href=" ">Tops</a></li>
                 <li class="nav--list--item"><a href=" ">Bottoms</a></li>
-                <li class="nav--list--item"><a href=" ">Sets</a></li>
-                <li class="nav--list--item"><a href=" ">HOTZY Kids</a></li>
             </ul>
         </div>
         <div class="icon--container">
-            <i class="icon fa-regular fa-user" style="color: #d498e3;"></i>
-            <i class="icon fa-solid fa-cart-shopping" style="color: #d498e3;"></i>
+            <i id="js--login" class="icon fa-regular fa-user" style="color: #d498e3;"></i>
+            <i id="js--cart" class="icon fa-solid fa-cart-shopping" style="color: #d498e3;"></i>
+            <nav>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </div>
-        <nav>
-            <div class="ham-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
     </header>
-
+<main>
     <h1>Under Construction!</h1>
     <p>This page is under construction and currently empty.</p>
+</main>
+<footer>
+        <div class="footer--container">
+            <div class="social--card">
+                <img class="img--logo" src="img/HotzyLogo.webp" alt="logo">
+                <div class="brand--containers">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="help--card">
+                <h2>Help</h2>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Size Guide</li>
+                    <li>Shopping Policy</li>
+                    <li>Refund Policy</li>
+                </ul>
+            </div>
+            <div class="legal--card">
+                <h2>Legal</h2>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

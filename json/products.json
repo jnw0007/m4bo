@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "img/clothingcatalog/Hotzy_Dog_Shirt_Front.webp",
+        "name": "Dog Tee",
+        "price": "22.99",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "image": "img/clothingcatalog/Hotzy_Logo_Shirt_Front.webp",
+        "name": "Hotzy logo Tee",
+        "price": "21.99",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "image": "img/clothingcatalog/Hotzy_Cami_Purple_Front.webp",
+        "name": "Purple Cami",
+        "price": "39.22",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "image": "img/clothingcatalog/Hotzy_LaceUp_Cami_Front.webp",
+        "name": "Lace up Cami",
+        "price": "36.33",
+        "quantity": 0
+    },
+    {
+        "id": 5,
+        "image": "img/clothingcatalog/Hotzy_IceCream_Skirt_Front.webp",
+        "name": "Ice Cream Skirt",
+        "price": "23.99",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "image": "img/clothingcatalog/Hotzy_Floral_Skirt_Front.webp",
+        "name": "Floral Skirt",
+        "price": "25.99",
+        "quantity": 1
+    }
+]

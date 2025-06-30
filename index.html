@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
+    <script src="js/homepage.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotzy</title>
@@ -23,14 +24,11 @@
                 <li class="nav--list--item"><a class="shop--nav" href="shop.html">SHOP ALL</a></li>
                 <li class="nav--list--item"><a href=" ">Tops</a></li>
                 <li class="nav--list--item"><a href=" ">Bottoms</a></li>
-                <li class="nav--list--item"><a href=" ">Sets</a></li>
-                <li class="nav--list--item"><a href=" ">HOTZY Kids</a></li>
             </ul>
         </div>
         <div class="icon--container">
-            <i class="icon fa-regular fa-user" style="color: #d498e3;"></i>
-            <i class="icon fa-solid fa-cart-shopping" style="color: #d498e3;"></i>
-            <i class="icon fa-solid fa-magnifying-glass" style="color: #d498e3;"></i>
+            <i id="js--login" class="icon fa-regular fa-user" style="color: #d498e3;"></i>
+            <i id="js--cart" class="icon fa-solid fa-cart-shopping" style="color: #d498e3;"></i>
             <nav>
                 <div class="ham-menu">
                     <span></span>
@@ -65,11 +63,8 @@
         <div class="item--container">
             <div class="product_dummy">
                 <img class="item--card" src="" alt="">
-                <h2 class="product_title"></h2>
+                <h2 class="product_title" onclick="shopPage"></h2>
                 <p class="product_price"></p>
-                <div class="container--soldout">
-                    <h2>SOLD OUT</h2>
-                </div>
             </div>
         </div>
 
@@ -112,18 +107,6 @@
                     <li>Privacy Policy</li>
                     <li>Terms of Service</li>
                 </ul>
-            </div>
-            <div class="company--card">
-                <h2>Company</h2>
-                <ul>
-                    <li>About Us</li>
-                </ul>
-            </div>
-            <div class="newsletter--card">
-                <h2>Newsletter</h2>
-                <label for="email">Email</label>
-                <input id="email" type="email">
-                <input class="newsletter--submit" type="submit" value="Sign Up">
             </div>
         </div>
     </footer>
